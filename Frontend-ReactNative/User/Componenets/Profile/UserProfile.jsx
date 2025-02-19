@@ -7,10 +7,10 @@ import {
   StyleSheet,
   TouchableOpacity,
 } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const ProfileScreen = () => {
-  const navigation = useNavigation();
+const ProfileScreen = ({ navigation }) => {
+
 
   // Sample user data
   const [userData, setUserData] = useState({
@@ -22,10 +22,16 @@ const ProfileScreen = () => {
   });
 
   // Handle logout
-  const handleLogout = () => {
-    // Handle the logout logic here (e.g., clear session, token, etc.)
-    // Navigate to Login screen
-    navigation.replace("Login");
+  const handleLogout = async () => {
+    try {
+      // Remove the token from AsyncStorage
+      await AsyncStorage.removeItem("jwtToken");
+
+      // Redirect the user to the login screen
+      navigation.replace("GoLogin");
+    } catch (error) {
+      console.error("Error during logout:", error);
+    }
   };
 
   return (
@@ -79,7 +85,7 @@ const ProfileScreen = () => {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate("ChangePassword")}
+        onPress={() => navigation.navigate("ChangePass")}
       >
         <Text style={styles.buttonText}>Change Password</Text>
       </TouchableOpacity>

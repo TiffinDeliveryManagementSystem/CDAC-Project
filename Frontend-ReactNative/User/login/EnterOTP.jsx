@@ -36,7 +36,7 @@ export default function OtpScreen({navigation}) {
       Alert.alert("Error", "Please enter all 6 digits of the OTP.");
     } else {
       Alert.alert("Success", "Login Sucessfully !");
-     navigation.replace("select-loc");
+     navigation.replace("ChangePass");
       // Add backend OTP validation logic here
     }
   };

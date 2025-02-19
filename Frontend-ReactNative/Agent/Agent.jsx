@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
 
-function AdminHome() {
+function AgentHome() {
     return ( <View>
         <Text>
-            This is Admin Side 
+            Welcome to Agent
         </Text>
+        
     </View> );
 }
 
-export default AdminHome;
+export default AgentHome;

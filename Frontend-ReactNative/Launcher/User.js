@@ -20,15 +20,24 @@ import Cart from "../User/Componenets/Cart/Cart";
 import Checkout from "../User/Componenets/Cart/Checkout";
 import PaymentSuccess from "../User/Componenets/Cart/Payment";
 import ComingSoonScreen from "../User/Email/Comingsoon";
+import GoLogin from "../User/login/GoLogin";
+import RegistrationScreen from "../User/Registration/Register";
+import ChangePassword from "../User/Registration/ChangePass";
+import AdminHome from "../Admin/Screens/home2";
+import HomePage from "../Provider/Components/Dashboard/Homepage";
+import SplashScreen from "./SplashScreen";
+import AgentHome from "../Agent/Agent";
+import MapViewScreen from "../User/locationscreen/loc";
 
 
-function Launcher() {
+function UserLauncher() {
   var stack = createNativeStackNavigator();
   return (
     <NavigationContainer>
-      <stack.Navigator initialRouteName="Login">
+      <stack.Navigator initialRouteName="Splash">
         
         <stack.Screen name="EnterPass" component={LoginScreen2} />
+        <stack.Screen name="GoLogin" component={GoLogin} />
         <stack.Screen name="Login" component={LoginScreen} />
         <stack.Screen name="go-otp" component={EmailLogin} />
         <stack.Screen name="enter-otp" component={OtpScreen} />
@@ -47,10 +56,21 @@ function Launcher() {
         <stack.Screen name="Checkout" component={Checkout} />
         <stack.Screen name="PaymentSuccess" component={PaymentSuccess} />
         <stack.Screen name="ComingSoon" component={ComingSoonScreen} />
+        <stack.Screen name="Register" component={RegistrationScreen}/>
+        <stack.Screen name="ChangePass" component={ChangePassword}/>
+        <stack.Screen name="MapViewScreen" component={MapViewScreen} />
+
+
 
 
         {/* ForDemo */}
         <stack.Screen name="gotohome" component={Demo}/>
+        <stack.Screen name="admin" component={AdminHome}/>
+        <stack.Screen name="provider" component={HomePage}/>
+        <stack.Screen name="agent" component={AgentHome}/>
+        <stack.Screen name="Splash" component={SplashScreen}/>
+
+
         
 
 
@@ -59,4 +79,4 @@ function Launcher() {
     </NavigationContainer>
   );
 }
-export default Launcher;
+export default UserLauncher;
