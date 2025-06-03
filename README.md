@@ -2,6 +2,7 @@
 
 TDMS is a cross-platform **Tiffin Delivery Management System** built using **React Native**, **Node.js**, **Express**, and **MySQL**. It enables customers to subscribe to meals, place orders, view menus, and make payments while helping providers manage deliveries efficiently.
 
+---
 📸 Screenshots
 ### Screens
 ![Demo](assets/screenshots/demo.png)
@@ -121,10 +122,7 @@ npx expo start
 	•	Scan QR code using the Expo Go app on your phone.
 	•	Ensure both mobile and development PC are on the same network.
 
-⸻
-
-
-⸻
+---
 
 📁 Folder Structure
 ```
@@ -145,7 +143,7 @@ tdms/
 └── .env
 ```
 
-⸻
+---
 
 📎 Dependencies
 
@@ -157,7 +155,7 @@ npm install axios
 ```
 Use expo install for React Native-specific packages.
 
-⸻
+---
 
 🙌 Author
 
@@ -167,10 +165,10 @@ Yash Vijay Bharsakle
 🔗 LinkedIn
 🌐 Portfolio
 
-⸻
+---
 
 ⭐️ Show Some Love
 
 If you liked the project, consider leaving a ⭐ on GitHub.
 
-⸻
+---
