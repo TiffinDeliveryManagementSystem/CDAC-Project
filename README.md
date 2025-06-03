@@ -1,11 +1,24 @@
-Here’s a complete and properly formatted README.md file for your TDMS (Tiffin Delivery Management System) React Native project, including project description, setup instructions with bash commands, dependencies, and screenshots with size control.
-
-⸻
-
-
 # 🍱 TDMS – Tiffin Delivery Management System
 
 TDMS is a cross-platform **Tiffin Delivery Management System** built using **React Native**, **Node.js**, **Express**, and **MySQL**. It enables customers to subscribe to meals, place orders, view menus, and make payments while helping providers manage deliveries efficiently.
+
+📸 Screenshots
+
+Login and Home
+
+<p align="center">
+	Login
+  <img src="assets/screenshots/login.png" alt="Login" width="250"/>
+  <img src="assets/screenshots/home.png" alt="Home" width="250"/>
+</p>
+
+
+Menu and Orders
+
+<p align="center">
+  <img src="assets/screenshots/menu.png" alt="Menu" width="250"/>
+  <img src="assets/screenshots/orders.png" alt="Orders" width="250"/>
+</p>
 
 ---
 
@@ -111,29 +124,11 @@ npx expo start
 
 ⸻
 
-📸 Screenshots
 
-Login and Home
-
-<p align="center">
-  <img src="assets/screenshots/login.png" alt="Login" width="250"/>
-  <img src="assets/screenshots/home.png" alt="Home" width="250"/>
-</p>
-
-
-Menu and Orders
-
-<p align="center">
-  <img src="assets/screenshots/menu.png" alt="Menu" width="250"/>
-  <img src="assets/screenshots/orders.png" alt="Orders" width="250"/>
-</p>
-
-
-```
 ⸻
 
 📁 Folder Structure
-
+```
 tdms/
 ├── backend/
 │   ├── controllers/
