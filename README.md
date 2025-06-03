@@ -1,130 +1,147 @@
+Here’s a complete and properly formatted README.md file for your TDMS (Tiffin Delivery Management System) React Native project, including project description, setup instructions with bash commands, dependencies, and screenshots with size control.
+
+⸻
+
+
 # 🍱 TDMS – Tiffin Delivery Management System
 
-TDMS is a full-stack Tiffin Delivery Management System built using React, React Native, Node.js, Express, and MySQL. 
-It allows customers to subscribe to daily/monthly/weekly tiffin services, view daily menus, make payments, register complaints, and more.
-
-> 📱 Available for Android and iOS | 🌐 Admin dashboard on web
->
-> ## 📸 Project Screenshots
-
-### Login Screen
-![Login Screen](assets/screenshots/login.png)
-
-### Home Screen
-![Home Screen](assets/screenshots/home.png)
-
-### Menu View
-![Menu](assets/screenshots/menu.png)
-
-### Order Placement
-![Order](assets/screenshots/orders.png)
+TDMS is a cross-platform **Tiffin Delivery Management System** built using **React Native**, **Node.js**, **Express**, and **MySQL**. It enables customers to subscribe to meals, place orders, view menus, and make payments while helping providers manage deliveries efficiently.
 
 ---
 
 ## 🚀 Features
 
-### 👤 Customer
-- View daily/weekly/monthly tiffin options
-- Choose between mini/regular thalis, veg/non-veg
-- Place and schedule orders
-- View tiffin menu updates
-- Track order status and delivery
+### 👤 Customers
+- Subscribe to daily/monthly/weekly tiffins
+- Choose veg/non-veg thalis, sweets, and mini options
+- View daily menus and place orders
 - Register complaints and give feedback
+- Track delivery status
 
-### 🍳 Tiffin Provider
-- Manage daily menu
-- Handle subscriptions
-- Track cooking requirements and upcoming orders
+### 🧑‍🍳 Providers
+- Share daily menu and item availability
+- Track orders and manage subscriptions
 
-### 📦 Delivery Agent
-- See assigned deliveries
-- Mark deliveries as complete
+### 🚚 Delivery Agents
+- View assigned orders
+- Update delivery status
 
-### 🔐 Admin
-- Manage users, providers, agents
-- View and resolve complaints
-- Handle feedback and reports
+### 🛠 Admin
+- Manage users, tiffin providers, and delivery agents
+- Monitor feedback and resolve complaints
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-| Category         | Technologies                                |
-|------------------|---------------------------------------------|
-| Frontend         | React Native (Expo)                         |
-| Backend API      | Node.js, Express                            |
-| Database         | MySQL                                       |
-| UI Components    | React Native Elements / Custom Styling      |
-| Image Upload     | Cloudinary / Local (based on environment)   |
-| Payment Gateway  | Razorpay / Stripe (optional)                |
-| Version Control  | Git & GitHub                                |
+| Area         | Technology                         |
+|--------------|-------------------------------------|
+| Frontend     | React Native (Expo)                |
+| Backend      | Node.js, Express                   |
+| Database     | MySQL                              |
+| Auth & API   | JWT, REST APIs                     |
+| UI/UX        | React Native Elements / Custom CSS |
+| Payments     | Razorpay / Stripe (planned)        |
+| Version Ctrl | Git, GitHub                        |
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 📦 Prerequisites
+### 1️⃣ Clone the Repository
 
-- Node.js ≥ 18
-- npm or yarn
-- MySQL Server
-- Expo Go App (for testing on mobile)
-- Git
+```bash
+git clone https://github.com/yourusername/tdms.git
+cd tdms
 
-### 🔧 Installation
 
-1. Clone the Repository
-   ```bash
-   git clone https://github.com/yourusername/tdms.git
-   cd tdms
-   
-2.	Install Dependencies
+⸻
+
+2️⃣ Install Dependencies
+
+For root folder (if needed):
 
 npm install
 # or
 yarn install
 
 
-3.	Setup .env File
-Create a .env file and add:
+⸻
+
+3️⃣ Setup Environment File
+
+Create a .env file in the /backend directory:
 
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=yourpassword
 DB_NAME=tdms
 
-4.	Run MySQL DB
-	•	Import SQL schema from /backend/db/schema.sql
 
-5.	Run Backend
+⸻
+
+4️⃣ Run MySQL and Import Schema
+	•	Start MySQL Server
+	•	Import SQL from:
+
+/backend/db/schema.sql
+
+You can use tools like phpMyAdmin or MySQL CLI:
+
+mysql -u root -p tdms < backend/db/schema.sql
+
+
+⸻
+
+5️⃣ Start Backend Server
+
 cd backend
 npm install
 npm start
 
-6.	Run Frontend
-cd frontend
+
+⸻
+
+6️⃣ Start Frontend (React Native)
+
+cd ../frontend
 npx expo start
 
-
-
-⸻
-
-📸 Project Screenshots
-
-Login	Home	Menu	Order
-			
-
-Add your own screenshots in /assets/screenshots/ and update the table above.
+	•	Scan QR code using the Expo Go app on your phone.
+	•	Ensure both mobile and development PC are on the same network.
 
 ⸻
 
-📂 Folder Structure
+📸 Screenshots
+
+Login and Home
+
+<p align="center">
+  <img src="assets/screenshots/login.png" alt="Login" width="250"/>
+  <img src="assets/screenshots/home.png" alt="Home" width="250"/>
+</p>
+
+
+Menu and Orders
+
+<p align="center">
+  <img src="assets/screenshots/menu.png" alt="Menu" width="250"/>
+  <img src="assets/screenshots/orders.png" alt="Orders" width="250"/>
+</p>
+
+
+Add your screenshots to assets/screenshots/ and make sure filenames match.
+
+⸻
+
+📁 Folder Structure
 
 tdms/
 ├── backend/
 │   ├── controllers/
-│   ├── routes/
+│   ├── db/
 │   ├── models/
+│   ├── routes/
 │   └── server.js
 ├── frontend/
 │   ├── components/
@@ -132,19 +149,51 @@ tdms/
 │   └── App.js
 ├── assets/
 │   └── screenshots/
-└── README.md
+├── README.md
+└── .env
 
 
+⸻
 
-📧 Contact
+📎 Dependencies
+
+Install major dependencies if needed:
+
+npm install express mysql2 dotenv cors nodemon jsonwebtoken bcrypt
+npm install react-native react-navigation react-native-elements
+npm install axios
+
+Use expo install for React Native-specific packages.
+
+⸻
+
+🙌 Author
 
 Yash Vijay Bharsakle
 📧 yashbharsakle451@gmail.com
+📱 +91-7558739501
 🔗 LinkedIn
 🌐 Portfolio
 
 ⸻
 
-⭐️ Show your support
+⭐️ Show Some Love
 
-If you like this project, give it a ⭐ on GitHub and share it with others!
+If you liked the project, consider leaving a ⭐ on GitHub.
+
+⸻
+
+
+---
+
+### ✅ What You Need to Do Now
+
+1. **Replace**:
+   - `yourusername` with your actual GitHub username.
+   - Add real image files to `assets/screenshots/`.
+
+2. **Run the bash commands step by step** to test before sharing the repo.
+
+3. **Optional**: Add a `.env.example` file to guide others on what env variables are needed.
+
+Let me know if you'd like help creating the SQL schema file (`schema.sql`) or adding API documentation next!
