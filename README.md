@@ -53,59 +53,58 @@ TDMS is a cross-platform **Tiffin Delivery Management System** built using **Rea
 ```bash
 git clone https://github.com/yourusername/tdms.git
 cd tdms
-
+```
 
 ⸻
 
 2️⃣ Install Dependencies
-
-For root folder (if needed):
-
+```
 npm install
 # or
 yarn install
-
+```
 
 ⸻
 
 3️⃣ Setup Environment File
 
 Create a .env file in the /backend directory:
-
+```
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=yourpassword
 DB_NAME=tdms
-
+```
 
 ⸻
 
 4️⃣ Run MySQL and Import Schema
 	•	Start MySQL Server
 	•	Import SQL from:
-
+```
 /backend/db/schema.sql
-
+```
 You can use tools like phpMyAdmin or MySQL CLI:
-
+```
 mysql -u root -p tdms < backend/db/schema.sql
-
+```
 
 ⸻
 
 5️⃣ Start Backend Server
-
+```
 cd backend
 npm install
 npm start
 
-
+```
 ⸻
 
 6️⃣ Start Frontend (React Native)
-
+```
 cd ../frontend
 npx expo start
+```
 
 	•	Scan QR code using the Expo Go app on your phone.
 	•	Ensure both mobile and development PC are on the same network.
@@ -130,8 +129,7 @@ Menu and Orders
 </p>
 
 
-Add your screenshots to assets/screenshots/ and make sure filenames match.
-
+```
 ⸻
 
 📁 Folder Structure
@@ -151,18 +149,18 @@ tdms/
 │   └── screenshots/
 ├── README.md
 └── .env
-
+```
 
 ⸻
 
 📎 Dependencies
 
 Install major dependencies if needed:
-
+```
 npm install express mysql2 dotenv cors nodemon jsonwebtoken bcrypt
 npm install react-native react-navigation react-native-elements
 npm install axios
-
+```
 Use expo install for React Native-specific packages.
 
 ⸻
@@ -182,18 +180,3 @@ Yash Vijay Bharsakle
 If you liked the project, consider leaving a ⭐ on GitHub.
 
 ⸻
-
-
----
-
-### ✅ What You Need to Do Now
-
-1. **Replace**:
-   - `yourusername` with your actual GitHub username.
-   - Add real image files to `assets/screenshots/`.
-
-2. **Run the bash commands step by step** to test before sharing the repo.
-
-3. **Optional**: Add a `.env.example` file to guide others on what env variables are needed.
-
-Let me know if you'd like help creating the SQL schema file (`schema.sql`) or adding API documentation next!
