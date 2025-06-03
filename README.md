@@ -3,8 +3,7 @@
 TDMS is a cross-platform **Tiffin Delivery Management System** built using **React Native**, **Node.js**, **Express**, and **MySQL**. It enables customers to subscribe to meals, place orders, view menus, and make payments while helping providers manage deliveries efficiently.
 
 ---
-📸 Screenshots
-### Screens
+## 📸 Screenshots
 ![Demo](assets/screenshots/demo.png)
 
 <p align="center">
@@ -70,7 +69,7 @@ cd tdms
 
 ⸻
 
-2️⃣ Install Dependencies
+###2️⃣ Install Dependencies
 ```
 npm install
 # or
@@ -79,7 +78,7 @@ yarn install
 
 ⸻
 
-3️⃣ Setup Environment File
+###3️⃣ Setup Environment File
 
 Create a .env file in the /backend directory:
 ```
@@ -91,7 +90,8 @@ DB_NAME=tdms
 
 ⸻
 
-4️⃣ Run MySQL and Import Schema
+###4️⃣ Run MySQL and Import Schema
+:
 	•	Start MySQL Server
 	•	Import SQL from:
 ```
@@ -104,7 +104,7 @@ mysql -u root -p tdms < backend/db/schema.sql
 
 ⸻
 
-5️⃣ Start Backend Server
+###5️⃣ Start Backend Server
 ```
 cd backend
 npm install
@@ -113,18 +113,17 @@ npm start
 ```
 ⸻
 
-6️⃣ Start Frontend (React Native)
+###6️⃣ Start Frontend (React Native)
 ```
 cd ../frontend
 npx expo start
 ```
-
-	•	Scan QR code using the Expo Go app on your phone.
-	•	Ensure both mobile and development PC are on the same network.
+•	Scan QR code using the Expo Go app on your phone.
+•	Ensure both mobile and development PC are on the same network.
 
 ---
 
-📁 Folder Structure
+## 📁 Folder Structure
 ```
 tdms/
 ├── backend/
@@ -145,7 +144,7 @@ tdms/
 
 ---
 
-📎 Dependencies
+## 📎 Dependencies
 
 Install major dependencies if needed:
 ```
@@ -157,10 +156,11 @@ Use expo install for React Native-specific packages.
 
 ---
 
-🙌 Author
+## 🙌 Author
 
 Yash Vijay Bharsakle
 📧 yashbharsakle451@gmail.com
+-----
 📱 +91-7558739501
 🔗 LinkedIn
 🌐 Portfolio
@@ -171,4 +171,3 @@ Yash Vijay Bharsakle
 
 If you liked the project, consider leaving a ⭐ on GitHub.
 
----
