@@ -4,20 +4,24 @@ TDMS is a cross-platform **Tiffin Delivery Management System** built using **Rea
 
 📸 Screenshots
 
-Login and Home
-
 <p align="center">
-	Login
-  <img src="assets/screenshots/login.png" alt="Login" width="250"/>
-  <img src="assets/screenshots/home.png" alt="Home" width="250"/>
-</p>
+  <img src="assets/screenshots/login.png" alt="Login" width="220"/><br/>
+  <sub>Login Screen</sub>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;
 
+  <img src="assets/screenshots/home.png" alt="Home" width="220"/><br/>
+  <sub>Home Screen</sub>
 
-Menu and Orders
+  &nbsp;&nbsp;&nbsp;&nbsp;
 
-<p align="center">
-  <img src="assets/screenshots/menu.png" alt="Menu" width="250"/>
-  <img src="assets/screenshots/orders.png" alt="Orders" width="250"/>
+  <img src="assets/screenshots/menu.png" alt="Menu" width="220"/><br/>
+  <sub>Menu Screen</sub>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;
+
+  <img src="assets/screenshots/orders.png" alt="Orders" width="220"/><br/>
+  <sub>Orders Screen</sub>
 </p>
 
 ---
