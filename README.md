@@ -5,23 +5,25 @@ TDMS is a cross-platform **Tiffin Delivery Management System** built using **Rea
 📸 Screenshots
 
 <p align="center">
-  <img src="assets/screenshots/login.png" alt="Login" width="220"/><br/>
-  <sub>Login Screen</sub>
+  <span style="display: inline-block; text-align: center; margin: 10px;">
+    <img src="assets/screenshots/login.png" alt="Login" width="220"/><br/>
+    <sub>Login Screen</sub>
+  </span>
   
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  <span style="display: inline-block; text-align: center; margin: 10px;">
+    <img src="assets/screenshots/home.png" alt="Home" width="220"/><br/>
+    <sub>Home Screen</sub>
+  </span>
 
-  <img src="assets/screenshots/home.png" alt="Home" width="220"/><br/>
-  <sub>Home Screen</sub>
+  <span style="display: inline-block; text-align: center; margin: 10px;">
+    <img src="assets/screenshots/menu.png" alt="Menu" width="220"/><br/>
+    <sub>Menu Screen</sub>
+  </span>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;
-
-  <img src="assets/screenshots/menu.png" alt="Menu" width="220"/><br/>
-  <sub>Menu Screen</sub>
-
-  &nbsp;&nbsp;&nbsp;&nbsp;
-
-  <img src="assets/screenshots/orders.png" alt="Orders" width="220"/><br/>
-  <sub>Orders Screen</sub>
+  <span style="display: inline-block; text-align: center; margin: 10px;">
+    <img src="assets/screenshots/orders.png" alt="Orders" width="220"/><br/>
+    <sub>Orders Screen</sub>
+  </span>
 </p>
 
 ---
