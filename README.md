@@ -17,7 +17,7 @@ It allows customers to subscribe to daily/monthly/weekly tiffin services, view d
 ![Menu](assets/screenshots/menu.png)
 
 ### Order Placement
-![Order](assets/screenshots/order.png)
+![Order](assets/screenshots/orders.png)
 
 ---
 
