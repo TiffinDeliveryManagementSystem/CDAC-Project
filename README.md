@@ -118,7 +118,7 @@ npm start
 cd ../frontend
 npx expo start
 ```
-- Scan QR code using the Expo Go app on your phone.␣␣
+- Scan QR code using the Expo Go app on your phone.
 - Ensure both mobile and development PC are on the same network.
 
 ---
@@ -159,10 +159,10 @@ Use expo install for React Native-specific packages.
 ## 🙌 Author
 
 **Yash Vijay Bharsakle**
--- 📧 yashbharsakle451@gmail.com 
---📱 +91-7558739501 
-- 🔗 LinkedIn: 
-- 🌐 Portfolio: 
+- 📧 yashbharsakle451@gmail.com 
+- 📱 +91-7558739501 
+- 🔗 LinkedIn: https://www.linkedin.com/in/yash-bharsakle451/
+- 🌐 Portfolio: https://yash-bharsakle.github.io/Portfolio/
 
 ---
 
