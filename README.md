@@ -69,7 +69,7 @@ cd tdms
 
 ⸻
 
-###2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 ```
 npm install
 # or
@@ -78,7 +78,7 @@ yarn install
 
 ⸻
 
-###3️⃣ Setup Environment File
+### 3️⃣ Setup Environment File
 
 Create a .env file in the /backend directory:
 ```
@@ -90,7 +90,7 @@ DB_NAME=tdms
 
 ⸻
 
-###4️⃣ Run MySQL and Import Schema
+### 4️⃣ Run MySQL and Import Schema
 :
 	•	Start MySQL Server
 	•	Import SQL from:
@@ -104,7 +104,7 @@ mysql -u root -p tdms < backend/db/schema.sql
 
 ⸻
 
-###5️⃣ Start Backend Server
+### 5️⃣ Start Backend Server
 ```
 cd backend
 npm install
@@ -113,7 +113,7 @@ npm start
 ```
 ⸻
 
-###6️⃣ Start Frontend (React Native)
+### 6️⃣ Start Frontend (React Native)
 ```
 cd ../frontend
 npx expo start
@@ -158,12 +158,11 @@ Use expo install for React Native-specific packages.
 
 ## 🙌 Author
 
-Yash Vijay Bharsakle
-📧 yashbharsakle451@gmail.com
------
-📱 +91-7558739501
-🔗 LinkedIn
-🌐 Portfolio
+**Yash Vijay Bharsakle**
+📧 yashbharsakle451@gmail.com __
+📱 +91-7558739501 __
+🔗 LinkedIn:
+🌐 Portfolio:
 
 ---
 
