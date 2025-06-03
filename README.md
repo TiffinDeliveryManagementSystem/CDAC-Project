@@ -3,27 +3,14 @@
 TDMS is a cross-platform **Tiffin Delivery Management System** built using **React Native**, **Node.js**, **Express**, and **MySQL**. It enables customers to subscribe to meals, place orders, view menus, and make payments while helping providers manage deliveries efficiently.
 
 📸 Screenshots
+### Screens
+![Demo](assets/screenshots/demo.png)
 
 <p align="center">
-  <span style="display: inline-block; text-align: center; margin: 10px;">
-    <img src="assets/screenshots/login.png" alt="Login" width="220"/><br/>
-    <sub>Login Screen</sub>
-  </span>
-  
-  <span style="display: inline-block; text-align: center; margin: 10px;">
-    <img src="assets/screenshots/home.png" alt="Home" width="220"/><br/>
-    <sub>Home Screen</sub>
-  </span>
-
-  <span style="display: inline-block; text-align: center; margin: 10px;">
-    <img src="assets/screenshots/menu.png" alt="Menu" width="220"/><br/>
-    <sub>Menu Screen</sub>
-  </span>
-
-  <span style="display: inline-block; text-align: center; margin: 10px;">
-    <img src="assets/screenshots/orders.png" alt="Orders" width="220"/><br/>
-    <sub>Orders Screen</sub>
-  </span>
+  <img src="assets/screenshots/login.png" alt="Login" width="220"/>
+  <img src="assets/screenshots/home.png" alt="Home" width="220"/>
+  <img src="assets/screenshots/menu.png" alt="Menu" width="220"/>
+  <img src="assets/screenshots/orders.png" alt="Orders" width="220"/>
 </p>
 
 ---
